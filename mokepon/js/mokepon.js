@@ -32,6 +32,8 @@ let inputPydos
 let vidasJugador = 3
 let vidasEnemigo = 3 
 
+//holaaaaa//
+
 class Mokepon {
     constructor(nombre, foto, vida) {
         this.nombre = nombre
