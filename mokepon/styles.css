@@ -73,7 +73,7 @@ input:checked + label {
 }
 
 .boton-de-ataque {
-    width: 180px;
+    width: 80px;
     height: 70px;
     background: #74959A;
     padding: 10px;
