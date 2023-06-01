@@ -20,7 +20,7 @@ body {
  
 .subtitulo {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .tarjetas, .tarjetas-ataques {
@@ -145,12 +145,28 @@ input:checked + label {
     justify-content: center;
 }
 
-#mapa {
-    border: solid white;
+#ver-mapa button {
+    width: 110px;
+    height: 50px;
+    border-radius: 20px;
+    background: #F1E0AC;
+    border: 4px solid rgb(126, 122, 122);
+    color: rgb(126, 122, 122);
+    font-family: 'Poppins', sans-serif;
+    margin: 8px 2px;
+    font-size: 20px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 560px) {
     .tarjetas, .tarjetas-ataques {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 300px) {
+    #ver-mapa div {
+        display: flex;
+        align-items: center;
         flex-direction: column;
     }
 }
